@@ -1,6 +1,11 @@
-# Lilia FalloutRP
+# FalloutRP
  
 FalloutRP is a roleplay schema for [Lilia](https://github.com/LiliaFramework/Lilia). Its aim is to provide a stable FalloutRP schema to start your server creation with.
+
+# Contents
+
+- Text Radios
+- Tying (Includes search functionality and custom animations)
 
 # Support
 
