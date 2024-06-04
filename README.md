@@ -6,7 +6,9 @@ FalloutRP is a roleplay schema for [Lilia](https://github.com/LiliaFramework/Lil
 
 - Text Radios
 
-- Tying (Includes search functionality and custom animations)
+- Tying
+
+- Tying Search
 
 # Support
 
