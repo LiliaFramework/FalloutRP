@@ -1,6 +1,6 @@
 # FalloutRP
  
-FalloutRP is a roleplay schema for [Lilia](https://github.com/LiliaFramework/Lilia). Its aim is to provide a stable FalloutRP schema to start your server creation with.
+FalloutRP is a roleplay schema for [Lilia](https://github.com/LiliaFramework/Lilia).
 
 # Contents
 
