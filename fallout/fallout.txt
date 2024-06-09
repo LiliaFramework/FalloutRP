@@ -1,0 +1,7 @@
+"fallout"
+{
+	"base"		"lilia"
+	"title"		"FalloutRP"
+	"author"	"Samael"
+	"category"	"rp"
+}

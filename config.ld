@@ -1,0 +1,56 @@
+file = {
+	"fallout",
+}
+
+dir = "docs/html"
+project = "Fallout"
+title = "Fallout Documentation"
+no_space_before_args = true
+style = "docs/css"
+template = "docs/templates"
+format = "markdown"
+ignore = true
+use_markdown_titles = true
+kind_names = {module = "Core - Libraries", topic = "Core - Manual"}
+merge = true
+sort = true
+sort_modules = true
+
+simple_args_string = true -- we show optionals/defaults outside of the display name
+strip_metamethod_prefix = true -- remove the name of the table when displaying metamethod names
+no_viewed_topic_at_top = true -- don't put the currently viewed topic at the top
+use_new_templates = true -- new templating system
+pretty_urls = true -- avoid showing .html in urls
+pretty_topic_names = true -- strips extension from manual filenames, this does not check filename collisions
+
+custom_tags = {
+	{"realm", hidden = true},
+	{"internal", hidden = true}
+}
+
+new_type("structureitems", "Structures - Items", true)
+new_type("structurefactions", "Structures - Factions", true)
+new_type("structureclasses", "Structures - Classes", true)
+new_type("structurecommands", "Structures - Commands", true)
+new_type("structuremodule", "Structures - Module", true)
+new_type("configurationmodule", "Config - Module", true)
+new_type("configurationgeneral", "Config - General", true)
+new_type("hooksgeneral", "Hooks - General", true)
+new_type("hooksmodule", "Hooks - Module", true)
+new_type("panels", "UI - Panels", true)
+tparam_alias("inventory", "Inventory")
+tparam_alias("item", "Item")
+tparam_alias("date", "date")
+tparam_alias("panel", "panel")
+tparam_alias("string", "string")
+tparam_alias("bool", "boolean")
+tparam_alias("func", "function")
+tparam_alias("client", "Player")
+tparam_alias("entity", "Entity")
+tparam_alias("character", "Character")
+tparam_alias("color", "color")
+tparam_alias("tab", "table")
+tparam_alias("material", "material")
+tparam_alias("vector", "vector")
+tparam_alias("angle", "angle")
+tparam_alias("int", "integer")
