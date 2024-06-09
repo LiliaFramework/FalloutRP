@@ -1,5 +1,5 @@
 ﻿--- Attributes of the default faction.
--- @structurefactions Default
+-- @factions Default
 
 --- A list of the current fields in the faction.
 -- @realm shared
