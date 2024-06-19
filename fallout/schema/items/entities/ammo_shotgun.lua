@@ -1,0 +1,5 @@
+ITEM.name = "Shotgun Shells"
+ITEM.desc = "A box of Shotgun Shells"
+ITEM.model = "models/maxibammo/556.mdl"
+ITEM.category = "Entities"
+ITEM.entityid = "aus_shotgunshell_ammo"

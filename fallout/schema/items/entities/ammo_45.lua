@@ -1,0 +1,5 @@
+ITEM.name = ".45 Rounds"
+ITEM.desc = "A box of .45 Rounds"
+ITEM.model = "models/maxibammo/556.mdl"
+ITEM.category = "Entities"
+ITEM.entityid = "aus_45_ammo"

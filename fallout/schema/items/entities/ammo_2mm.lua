@@ -1,0 +1,5 @@
+ITEM.name = "2mm EC Rounds"
+ITEM.desc = "A box of 2mm EC Rounds"
+ITEM.model = "models/maxibammo/556.mdl"
+ITEM.category = "Entities"
+ITEM.entityid = "aus_2ec_ammo"

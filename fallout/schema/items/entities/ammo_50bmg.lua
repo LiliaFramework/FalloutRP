@@ -1,0 +1,5 @@
+ITEM.name = ".50 BMG Rounds"
+ITEM.desc = "A box of .50 BMG Rounds"
+ITEM.model = "models/maxibammo/556.mdl"
+ITEM.category = "Entities"
+ITEM.entityid = "aus_50mg_ammo"
