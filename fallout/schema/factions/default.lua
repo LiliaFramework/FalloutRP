@@ -1,6 +1,5 @@
 ﻿--- Attributes of the default faction.
 -- @factions Default
-
 --- A list of the current fields in the faction.
 -- @realm shared
 -- @table Configurations
