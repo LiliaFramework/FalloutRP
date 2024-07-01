@@ -1,4 +1,4 @@
-CLASS.name = "Judgement Officer"
+﻿CLASS.name = "Judgement Officer"
 CLASS.desc = "Judgement Officer"
 CLASS.faction = FACTION_JUDGE
 CLASS.color = Color(0, 0, 0)

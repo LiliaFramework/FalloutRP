@@ -1,4 +1,4 @@
-ITEM.name = ".44 Magnum Rounds"
+﻿ITEM.name = ".44 Magnum Rounds"
 ITEM.desc = "A box of .44 Magnum Rounds"
 ITEM.model = "models/maxibammo/556.mdl"
 ITEM.category = "Entities"

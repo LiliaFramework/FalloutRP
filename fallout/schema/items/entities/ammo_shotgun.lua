@@ -1,4 +1,4 @@
-ITEM.name = "Shotgun Shells"
+﻿ITEM.name = "Shotgun Shells"
 ITEM.desc = "A box of Shotgun Shells"
 ITEM.model = "models/maxibammo/556.mdl"
 ITEM.category = "Entities"

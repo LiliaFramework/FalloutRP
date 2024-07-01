@@ -1,4 +1,4 @@
-function MODULE:transferItem(itemID)
+﻿function MODULE:transferItem(itemID)
     if not lia.item.instances[itemID] then return end
     net.Start("liaSafeboxTransfer")
     net.WriteUInt(itemID, 32)

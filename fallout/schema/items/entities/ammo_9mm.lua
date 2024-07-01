@@ -1,4 +1,4 @@
-ITEM.name = "9mm Rounds"
+﻿ITEM.name = "9mm Rounds"
 ITEM.desc = "A box of 9mm Rounds"
 ITEM.model = "models/maxibammo/556.mdl"
 ITEM.category = "Entities"

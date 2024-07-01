@@ -1,4 +1,4 @@
-CLASS.name = "Beastlord NCO"
+﻿CLASS.name = "Beastlord NCO"
 CLASS.desc = "Beastlord NCO"
 CLASS.faction = FACTION_BEASTLORD
 CLASS.color = Color(0, 0, 0)

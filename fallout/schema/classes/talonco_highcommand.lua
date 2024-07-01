@@ -1,4 +1,4 @@
-CLASS.name = "Talon Company HC"
+﻿CLASS.name = "Talon Company HC"
 CLASS.desc = "Talon Company HC"
 CLASS.faction = FACTION_TALONCO
 CLASS.color = Color(0, 0, 0)

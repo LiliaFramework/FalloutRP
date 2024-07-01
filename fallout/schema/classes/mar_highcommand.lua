@@ -1,4 +1,4 @@
-CLASS.name = "Master's Army Remnants HC"
+﻿CLASS.name = "Master's Army Remnants HC"
 CLASS.desc = "Master's Army Remnants HC"
 CLASS.faction = FACTION_MAR
 CLASS.color = Color(0, 0, 0)

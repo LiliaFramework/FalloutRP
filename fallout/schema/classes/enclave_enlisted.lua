@@ -1,4 +1,4 @@
-CLASS.name = "Enclave Enlisted"
+﻿CLASS.name = "Enclave Enlisted"
 CLASS.desc = "Enclave Enlisted"
 CLASS.faction = FACTION_ENCLAVE
 CLASS.color = Color(0, 0, 0)

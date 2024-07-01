@@ -1,4 +1,4 @@
-CLASS.name = "BOS High Command"
+﻿CLASS.name = "BOS High Command"
 CLASS.desc = "Brotherhood Of Steel High Command"
 CLASS.faction = FACTION_BOS
 CLASS.color = Color(0, 0, 0)

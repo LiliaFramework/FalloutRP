@@ -1,4 +1,4 @@
-ITEM.name = "40mm Grenades"
+﻿ITEM.name = "40mm Grenades"
 ITEM.desc = "A box of 40mm Grenades"
 ITEM.model = "models/maxibammo/556.mdl"
 ITEM.category = "Entities"

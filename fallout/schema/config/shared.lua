@@ -1,4 +1,4 @@
---[[--
+﻿--[[--
 Lilia's configuration options.
 
 This is meant to override Lilia's configuration options.
@@ -66,7 +66,7 @@ lia.config.MaxAttributes = 30
 lia.config.EquipDelay = 2
 lia.config.UnequipDelay = 2
 lia.config.DropDelay = 2
-lia.config.TakeDelay = 2
+lia.config.TakeDelay = 0
 lia.config.CurrencySingularName = "Cap"
 lia.config.CurrencyPluralName = "Caps"
 lia.config.SchemaYear = 2023

@@ -1,4 +1,4 @@
-CLASS.name = "Follower Officer"
+﻿CLASS.name = "Follower Officer"
 CLASS.desc = "Follower Officer"
 CLASS.faction = FACTION_FOLLOWER
 CLASS.color = Color(0, 0, 0)

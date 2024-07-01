@@ -1,4 +1,4 @@
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+﻿----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ITEM.name = "Behemoth Strain"
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ITEM.desc = "A strain of F.E.V. that will transform the user into a Behemoth"
@@ -24,18 +24,15 @@ ITEM.tmaterial = "models/flesh" --changes material to this during transformation
 ITEM.sound = "" --plays a sound
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function ITEM:preTransform(client)
-	local effectData = EffectData()
-	effectData:SetOrigin(client:GetPos() + client:GetUp() * 2)
-	effectData:SetScale(5)
-	for i = 0, 10 do
-		timer.Simple(
-			i,
-			function()
-				util.Effect("VortDispel", effectData)
-				client:EmitSound("ambient/machines/thumper_hit.wav", 100, 50)
-			end
-		)
-	end
+    local effectData = EffectData()
+    effectData:SetOrigin(client:GetPos() + client:GetUp() * 2)
+    effectData:SetScale(5)
+    for i = 0, 10 do
+        timer.Simple(i, function()
+            util.Effect("VortDispel", effectData)
+            client:EmitSound("ambient/machines/thumper_hit.wav", 100, 50)
+        end)
+    end
 end
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

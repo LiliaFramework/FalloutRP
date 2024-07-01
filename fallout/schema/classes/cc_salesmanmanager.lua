@@ -1,4 +1,4 @@
-CLASS.name = "Salesman Manager"
+﻿CLASS.name = "Salesman Manager"
 CLASS.desc = "CC Sales Officer"
 CLASS.faction = FACTION_CRIMSONCARAVAN
 CLASS.color = Color(0, 0, 0)

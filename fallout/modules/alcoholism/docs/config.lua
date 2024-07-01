@@ -1,6 +1,5 @@
---- Configuration for Alcoholism Module.
+﻿--- Configuration for Alcoholism Module.
 -- @configuration Alcoholism
-
 --- This table defines the default settings for the Alcoholism Module.
 -- @realm shared
 -- @table Configuration

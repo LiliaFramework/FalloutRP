@@ -1,4 +1,4 @@
-FACTION.name = "Wastelander"
+﻿FACTION.name = "Wastelander"
 FACTION.desc = "The Survivors of the waste"
 FACTION.color = Color(254, 254, 254)
 FACTION.isDefault = true
