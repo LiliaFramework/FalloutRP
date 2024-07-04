@@ -1,16 +1,4 @@
-﻿--- Attributes of the ammunition item.
--- @realm shared
--- @table ItemInfo
--- @field name The name of the item | string.
--- @field desc The description of the item | string.
--- @field model The model of the item | string.
--- @field width The width of the item in inventory | number.
--- @field height The height of the item in inventory | number.
--- @field health The amount of health the item restores | number.
--- @field ammoAmount The amount of ammunition in the box | number.
--- @field category The category of the item | string.
--- @field allowedWeapons The list of weapons that can use this ammunition | table.
-ITEM.name = "Box of Ammunition"
+﻿ITEM.name = "Box of Ammunition"
 ITEM.desc = "A box that contains sixty bullets.\nUse items with the gun you want loaded out."
 ITEM.model = "models/Items/BoxSRounds.mdl"
 ITEM.ammoAmount = 60
