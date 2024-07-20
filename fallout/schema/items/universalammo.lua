@@ -18,7 +18,7 @@ ITEM.functions.use = {
         local client = item.player
         local weapon = client:GetActiveWeapon()
         if not IsValid(weapon) then return false end
-        if not table.hasvalue(item.allowedWeapons, weapon:GetClass()) then
+        if not table.HasValue(item.allowedWeapons, weapon:GetClass()) then
             client:PrintMessage(HUD_PRINTTALK, "This weapon may not be resupplied.")
             client:EmitSound("Player.DenyWeaponSelection")
             return false
