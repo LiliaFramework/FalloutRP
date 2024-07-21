@@ -1,4 +1,4 @@
-﻿--- Configuration for Door Kick Module.
+--- Configuration for Door Kick Module.
 -- @configuration DoorKick
 
 --- This table defines the default settings for the Door Kick Module.
