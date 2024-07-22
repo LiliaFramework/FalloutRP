@@ -1,4 +1,4 @@
 exclude_files = {
-    "skeleton/modules/**/docs/*.lua",
-    "skeleton/modules/**/module.lua",
+    "fallout/modules/**/docs/*.lua",
+    "fallout/modules/**/module.lua",
 }
