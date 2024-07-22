@@ -2,13 +2,13 @@
 
 <html>
 	<head>
-		<title>MapCleaner - Fallout Documentation</title>
+		<title>Radio - Fallout Documentation</title>
 
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="MapCleaner - Fallout Documentation" />
+		<meta property="og:title" content="Radio - Fallout Documentation" />
 		<meta property="og:site_name" content="Lilia Documentation" />
 
-			<meta property="og:description" content="Configuration for Map Cleaner Module." />
+			<meta property="og:description" content="Hook Documentation for Radio Module." />
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
 		<link rel="stylesheet" href="../../ldoc.css" />
@@ -32,7 +32,7 @@
 
 					<ul>
 							<li>
-									<details >
+									<details open>
 									<summary><a href="../../hooks/radio/">Radio</a></summary>
 
 									<ul>
@@ -222,7 +222,7 @@ ToggleWanted											</a>
 									</details>
 							</li>
 							<li>
-									<details open>
+									<details >
 									<summary><a href="../../configurations/mapcleaner/">MapCleaner</a></summary>
 
 									<ul>
@@ -233,7 +233,7 @@ ToggleWanted											</a>
 									</details>
 							</li>
 							<li>
-									<details >
+									<details open>
 									<summary><a href="../../configurations/radio/">Radio</a></summary>
 
 									<ul>
@@ -284,70 +284,38 @@ ToggleWanted											</a>
 			<article>
 					<div class="wrapper">
 						<header class="module">
-	<h1>MapCleaner</h1>
-	<h2>Configuration for Map Cleaner Module.</h2>
+	<h1>Radio</h1>
+	<h2>Hook Documentation for Radio Module.</h2>
 </header>
 
 <p>
 
 </p>
 
-	<h1 class="title">Tables</h1>
+	<h1 class="title">Functions</h1>
 
 		<section class="method">
 			<header>
-				<a class="anchor" id="Configuration">
-					<h1><span class="realm shared"></span></span>Configuration</h1>
+				<a class="anchor" id="ShouldRadioBeep">
+					<h1><span class="realm server"></span></span>MODULE:ShouldRadioBeep(client)</h1>
 				</a>
 
-					<p>This table defines the default settings for the Map Cleaner Module.</p>
+					<p>Called to determine if a radio beep sound should be played for a player.</p>
 			</header>
 
 
-					<h3>Fields</h3>
+					<h3>Parameters</h3>
 
 
 					<ul>
 
 							<li>
-								<span class="tag parameter">MapCleanerEnabled</span>
+								<span class="tag parameter">client</span>
+
+									<span class="tag"><span class="type">Player</span></span>
 
 
-
-								<p>  Indicates whether the map cleaner is enabled | <strong>bool</strong></p>
-							</li>
-					</ul>
-
-					<ul>
-
-							<li>
-								<span class="tag parameter">ItemCleanupTime</span>
-
-
-
-								<p> The time in seconds before items are cleaned up | <strong>number</strong></p>
-							</li>
-					</ul>
-
-					<ul>
-
-							<li>
-								<span class="tag parameter">MapCleanupTime</span>
-
-
-
-								<p> The time in seconds before the entire map is cleaned up | <strong>number</strong></p>
-							</li>
-					</ul>
-
-					<ul>
-
-							<li>
-								<span class="tag parameter">MapCleanerEntitiesToRemove</span>
-
-
-
-								<p> A list of entity types that will be removed during map cleanup | <strong>table</strong></p>
+								<p> Player The player who is being checked for a radio beep.</p>
 							</li>
 					</ul>
 
