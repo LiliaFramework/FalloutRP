@@ -2,13 +2,13 @@
 
 <html>
 	<head>
-		<title>Radio - Fallout Documentation</title>
+		<title>Crafting - Fallout Documentation</title>
 
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Radio - Fallout Documentation" />
+		<meta property="og:title" content="Crafting - Fallout Documentation" />
 		<meta property="og:site_name" content="FalloutRP Documentation" />
 
-			<meta property="og:description" content="Configuration for Radio Module." />
+			<meta property="og:description" content="Meta Tables for Crafting." />
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro" />
 		<link rel="stylesheet" href="../../ldoc.css" />
@@ -32,7 +32,7 @@
 
 					<ul>
 							<li>
-									<details open>
+									<details >
 									<summary><a href="../../hooks/radio/">Radio</a></summary>
 
 									<ul>
@@ -56,7 +56,7 @@ ShouldRadioBeep											</a>
 
 					<ul>
 							<li>
-									<details >
+									<details open>
 									<summary><a href="../../entity meta/crafting/">Crafting</a></summary>
 
 									<ul>
@@ -116,7 +116,7 @@ ResetBAC											</a>
 									</details>
 							</li>
 							<li>
-									<details >
+									<details open>
 									<summary><a href="../../player meta/crafting/">Crafting</a></summary>
 
 									<ul>
@@ -252,7 +252,7 @@ ToggleWanted											</a>
 									</details>
 							</li>
 							<li>
-									<details open>
+									<details >
 									<summary><a href="../../configurations/radio/">Radio</a></summary>
 
 									<ul>
@@ -303,40 +303,37 @@ ToggleWanted											</a>
 			<article>
 					<div class="wrapper">
 						<header class="module">
-	<h1>Radio</h1>
-	<h2>Configuration for Radio Module.</h2>
+	<h1>Crafting</h1>
+	<h2>Meta Tables for Crafting.</h2>
 </header>
 
 <p>
 
 </p>
 
-	<h1 class="title">Tables</h1>
+	<h1 class="title">Functions</h1>
 
 		<section class="method">
 			<header>
-				<a class="anchor" id="Configuration">
-					<h1><span class="realm shared"></span></span>Configuration</h1>
+				<a class="anchor" id="CanCraft">
+					<h1><span class="realm shared"></span></span>playerMeta:CanCraft()</h1>
 				</a>
 
-					<p>This table defines the default settings for the Radio Module.</p>
+					<p>Checks if the player can craft.</p>
 			</header>
 
 
-					<h3>Fields</h3>
 
-
-					<ul>
+				<h3>Returns</h3>
+				<ul>
 
 							<li>
-								<span class="tag parameter">RadioChatColor</span>
+									<span class="type">bool</span>
 
-
-
-								<p> color The color used for radio chat messages</p>
+								<p>True if the player is alive and has a character, false otherwise.</p>
 							</li>
-					</ul>
 
+				</ul>
 
 
 		</section>
