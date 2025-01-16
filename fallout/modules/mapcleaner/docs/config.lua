@@ -1,6 +1,5 @@
---- Configuration for Map Cleaner Module.
+﻿--- Configuration for Map Cleaner Module.
 -- @configuration MapCleaner
-
 --- This table defines the default settings for the Map Cleaner Module.
 -- @realm shared
 -- @table Configuration

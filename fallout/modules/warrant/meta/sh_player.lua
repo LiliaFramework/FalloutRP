@@ -2,7 +2,6 @@
 -- @playermeta Warrant
 local MODULE = MODULE
 local playerMeta = FindMetaTable("Player")
-
 if SERVER then
     --- Toggles the wanted status of the player.
     -- @client warranter The player who issued or removed the warrant.
@@ -25,6 +24,7 @@ if SERVER then
             end
         end
     end
+
     --- Checks if the player can warrant other players.
     -- @treturn bool True if the player can warrant others, false otherwise.
     -- @realm server

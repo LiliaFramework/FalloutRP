@@ -1,4 +1,4 @@
---- Meta Tables for Crafting.
+﻿--- Meta Tables for Crafting.
 -- @playermeta Crafting
 local playerMeta = FindMetaTable("Player")
 --- Checks if the player can craft.

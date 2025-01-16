@@ -27,9 +27,7 @@
         end
 
         for _, v in pairs(ents.GetAll()) do
-            if table.HasValue(self.MapCleanerEntitiesToRemove, v:GetClass()) then
-                v:Remove()
-            end
+            if table.HasValue(self.MapCleanerEntitiesToRemove, v:GetClass()) then v:Remove() end
         end
     end)
 end

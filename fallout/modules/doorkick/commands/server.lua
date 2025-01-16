@@ -1,5 +1,4 @@
 ﻿local MODULE = MODULE
-
 lia.command.add("doorkick", {
     adminOnly = false,
     syntax = "",

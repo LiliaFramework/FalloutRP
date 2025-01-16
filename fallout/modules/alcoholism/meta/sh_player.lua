@@ -3,7 +3,6 @@
 local MODULE = MODULE
 local playerMeta = FindMetaTable("Player")
 local DrunkNotifyThreshold = MODULE.DrunkNotifyThreshold
-
 if SERVER then
     --- Resets the player's blood alcohol content (BAC) to 0.
     -- @realm server
